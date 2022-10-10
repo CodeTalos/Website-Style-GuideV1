@@ -1,0 +1,115 @@
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  min-width: 700px; 
+  margin: 0 5%; 
+}
+
+header h1 {
+  background-image: url("./images/Header-banner-001.png");
+  background-size: cover;
+  position: relative;
+  border: 1px solid white;
+  padding: 2em 0;
+  text-align: center; 
+  border-radius: 10px;
+  font-size: 28px;
+}
+
+h2 {
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.container {
+  border: 2px solid #D3D3D3;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.color-circle {
+  display: inline-block;
+  border: 1px solid grey;
+  border-radius: 25px;
+  width: 20%;
+  height: 90px;
+  margin: 5px;
+  color: white;
+}
+
+.color-grey-wrapper {
+  margin-bottom: 20px;
+}
+
+.purple {
+  background-color: #800080;
+}
+
+.mediumVioletRed {
+  background-color: #C71585;
+}
+
+.magenta {
+  background-color: #FF00FF;
+}
+
+.orchid {
+  background-color: #DA70D6;
+}
+
+.grey {
+  background-color: #808080;
+}
+
+.dimGrey {
+  background-color: #696969;
+}
+
+.silver {
+  background-color: #C0C0C0;
+  color: black;
+}
+
+.lightGrey {
+  background-color: #D3D3D3;
+  color: black;
+}
+
+.font-box {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+.font-box h3 {
+  text-decoration: underline;
+}
+
+.font-box p {
+  text-align: left;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.fontfamily-ibmPlexMono {
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+.fontfamily-mali {
+  font-family: 'Mali', cursive;
+}
+
+.text-stylebox {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+.text-stylebox p {
+  text-align: left;
+}
